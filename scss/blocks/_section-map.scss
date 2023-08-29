@@ -1,5 +1,8 @@
 .section-map {
+  position: relative;
   padding: 180px 0;
+
+  @include number-left("V", 1.9);
 }
 
 .section-map__title {

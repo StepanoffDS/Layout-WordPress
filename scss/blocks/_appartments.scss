@@ -1,11 +1,14 @@
-.appartments {
+.apartments {
+  position: relative;
+
+  @include number-left("III", 1.15);
 }
 
-.appartments__title {
+.apartments__title {
   margin-bottom: 88px;
 }
 
-.appartments__cards {
+.apartments__cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   // grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));

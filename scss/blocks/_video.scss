@@ -1,5 +1,8 @@
 .video {
+  position: relative;
   text-align: center;
+
+  @include number-right("IV", 1.5);
 }
 
 .video__link {

@@ -1,5 +1,8 @@
 .benefits {
+  position: relative;
   padding: 120px 0;
+
+  @include number-right("II", 1.15);
 }
 
 .benefits-row {
