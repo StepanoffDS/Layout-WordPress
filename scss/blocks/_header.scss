@@ -1,0 +1,41 @@
+.header {
+  background: linear-gradient(
+      180deg,
+      #242b33 11.98%,
+      rgba(45, 52, 60, 0.38) 51.04%,
+      #242b33 92.19%
+    ),
+    url("../img/Header-bg.jpeg"), lightgray 50% / cover no-repeat;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 840px;
+  padding: 30px 0 74px;
+}
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 48px;
+  font-family: $font_accent;
+  color: $color_accent;
+  font-weight: 700;
+  row-gap: 81px;
+}
+
+.header__footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
