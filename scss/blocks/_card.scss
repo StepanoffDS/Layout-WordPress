@@ -41,17 +41,11 @@
 }
 
 .card__img {
-  width: 540px;
-  height: 320px;
   object-fit: cover;
 
   position: relative;
 
   transition: all 0.2s ease-in;
-}
-
-.card-02 .card__img {
-  object-position: 0px -300px;
 }
 
 .card:hover .card__img {
@@ -66,4 +60,10 @@
   right: 20px;
   bottom: 44px;
   font-size: 24px;
+
+  @include mediaTablet {
+    font-size: 20px;
+    left: 30px;
+    bottom: 30px;
+  }
 }

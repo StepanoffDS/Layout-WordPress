@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="header__top">
+    <header class="header ">
+        <div class="header__top">
+          <div class="container">
             <div class="header__top-row">
               <a href="#">
                 <img src="./img/Logo.svg" alt="LoftHouse" />
@@ -26,30 +25,35 @@
                   </ul>
                 </nav>
               </div>
+              <div class="header__nav-btn">
+                <button class="nav-icon-btn">
+                  <div class="nav-icon"></div>
+                </button>
+              </div>
             </div>
           </div>
-          <div class="header__title">
-            <h1>
-              Жилой комплекс <br />
-              в историческом центре
-            </h1>
-            <a href="#benefits"
-              ><img src="./img/icons/mouse.svg" alt="Scroll to Benefits"
-            /></a>
-          </div>
-          <div class="header__footer">
-            <div class="text-right">
-              <a href="#section-map" class="info info--map"
-                >Наб. реки Фонтанки 10-15</a
-              >
-            </div>
-            <a href="+78121234567" class="info info--tel">8 (812) 123-45-67</a>
-          </div>
+          
         </div>
-      </div>
+        <div class="header__title">
+          <h1>
+            Жилой комплекс <br />
+            в историческом центре
+          </h1>
+          <a href="#benefits"
+            ><img src="./img/icons/mouse.svg" alt="Scroll to Benefits"
+          /></a>
+        </div>
+        <div class="header__footer">
+          <div class="text-right">
+            <a href="#section-map" class="info info--map"
+              >Наб. реки Фонтанки 10-15</a
+            >
+          </div>
+          <a href="+78121234567" class="info info--tel">8 (812) 123-45-67</a>
+        </div>
     </header>
     <main>
-      <section class="benefits">
+      <section class="benefits ">
         <div class="container container--sm">
         <div class="benefits-row">
           <div class="benefits__item">
@@ -89,31 +93,31 @@
         </div>
       </section>
 
-      <section class="apartments">
+      <section class="apartments ">
         <div class="container">
           <div class="apartments__title"><h2 class="title-2">Наши квартиры</h2></div>
           <div class="apartments__cards">
             <a class="card card-01" href="#">
-              <img class="card__img" src="./img/appartments/card-01.png" alt="">
+              <img class="card__img" src="./img/apartments/card-01.jpg" alt="">
               <h3 class="card__title">Пентхаус “Loft Олимп”</h3>
             </a>
             <a class="card card-02" href="#">
-              <img class="card__img" src="./img/appartments/card-02.png" alt="">
+              <img class="card__img" src="./img/apartments/card-02.jpg" alt="">
               <h3 class="card__title">Апартаменты “Nice Loft”</h3>
             </a>
             <a class="card card-03" href="#">
-              <img class="card__img" src="./img/appartments/card-03.jpeg" alt="">
+              <img class="card__img" src="./img/apartments/card-03.jpg" alt="">
               <h3 class="card__title">Апартаменты “Loft Studio”</h3>
             </a>
             <a class="card card-04" href="#">
-              <img class="card__img" src="./img/appartments/card-04.jpeg" alt="">
+              <img class="card__img" src="./img/apartments/card-04.jpg" alt="">
               <h3 class="card__title">Loft квартира “Престиж”</h3>
             </a>
           </div>
         </div>
       </section>
 
-      <section class="cta">
+      <section class="cta ">
         <div class="container">
           <div class="cta__title">
             <h2 class="title-2">Хотите посмотреть?</h2>
@@ -125,7 +129,7 @@
             <form action="" class="cta__form form">
               <input class="form__input" type="text" placeholder="Ваше имя">
               <input class="form__input" type="text" placeholder="Ваш телефон">
-              <p class="form__privacy">*Мы никому не передаем ваши данные. <br>
+              <p class="form__privacy form__privacy--bottom">*Мы никому не передаем ваши данные. <br>
                 И не сохраняем ваш номер в базу.</p>
               <button type="submit" class="form__btn">Посмотреть район</button>
             </form>
@@ -133,7 +137,7 @@
         </div>
       </section>
 
-      <section class="video">
+      <section class="video ">
         <div class="container">
           <a href="https://www.youtube.com/watch?v=bhJNL9JUsnY" class="video__link">
             <img src="./img/video/play-button.svg" alt="" class="video__icon">
@@ -142,7 +146,7 @@
         </div>
       </section>
 
-      <section class="section-map">
+      <section class="section-map ">
         <div class="container">
           <div class="section-map__title">
             <h2 class="title-2">Район на карте</h2>
@@ -153,13 +157,13 @@
         </div>
       </section>
 
-      <section class="feedback">
+      <section class="feedback ">
         <div class="container">
           <div class="feedback__title">
             <h2 class="title-2">Есть вопросы?</h2>
           </div>
           <form action="" class="feedback__form form">
-            <p class="form__privacy">*Мы никому не передаем ваши данные. <br>
+            <p class="form__privacy form__privacy--bottom">*Мы никому не передаем ваши данные. <br>
               И не сохраняем ваш номер в базу.</p>
             <input class="form__input" type="text" placeholder="Ваше имя">
             <input class="form__input" type="text" placeholder="Ваш телефон">
@@ -215,5 +219,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

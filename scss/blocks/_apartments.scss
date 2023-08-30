@@ -1,0 +1,23 @@
+.apartments {
+  position: relative;
+
+  @include number-left("III", 1.15);
+}
+
+.apartments__title {
+  margin-bottom: 88px;
+
+  @include mediaTablet {
+    margin-bottom: 44px;
+  }
+}
+
+.apartments__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  @include mediaTablet {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+}
